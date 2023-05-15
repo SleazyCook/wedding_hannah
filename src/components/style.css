@@ -1,0 +1,75 @@
+:root {
+  --color-purple: #372131;
+  --color-blue: #e1e6f7;
+  --color-white: #fff;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+
+/* hide scrollbar */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* hide scrollbar */
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body {
+  background-color: var(--color-blue);
+  color: var(--white);
+}
+
+.heading {
+  border: 2px solid black;
+  margin: 0 auto;
+  text-align: center;
+  font-size: larger;
+}
+
+.heading__greeting {
+  display: block;
+}
+
+.heating__couple {
+  display: block;
+}
+
+.heading__action {
+  display: block;
+}
+
+.heading__date {
+  display: block;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-radius: 10em;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
+}
+
+.button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+};
+
+.button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+};
