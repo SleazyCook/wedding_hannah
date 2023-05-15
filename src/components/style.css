@@ -29,13 +29,13 @@ body {
 }
 
 .heading {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin: 0 auto;
   text-align: center;
   font-size: larger;
   color: var(--color-white);
 
-  height: 100vh;
+  height: 90vh;
 
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@ body {
 
 .button {
   display: inline-block;
-  margin-top: 45px;
+  margin-top: 30px;
   text-decoration: none;
   background-color: white;
   color: var(--color-purple);
